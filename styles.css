@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-image:linear-gradient(black,rgb(163, 160, 160),rgb(236, 221, 221));
+    height: 125px;
+    width: 100%;
+    background-color: gray;
+    display: flex;
+}
+.box{
+    width: 100%;
+}
+.navbar img{
+    margin-left: 30px;
+    height: 100%;
+}
+.hello{
+    width: 100%;
+    height: 90vh;
+}
+.smallnavbar{
+    width: 72%;
+    float: right;
+    height: 40px;
+    background-color: white;
+    margin-right: 32px;
+    color:black;
+    display: flex;
+}
+.nav{
+    width: 100%;
+    height: 50%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav h3{
+    margin-right: 15px;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 0.9em;
+}
+.smallnavbar span{
+    margin-left: 12px;
+    font-size: 0.9em;
+}
+.help{
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    width: 16%;
+    align-items: center;
+    background-color: green;
+    height: 40px;
+    color: white;
+}
+.help2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p:nth-of-type(1){
+    margin-left: 3px;
+    font-size: 0.7em;
+    margin-top: 5px;
+}
+p:nth-of-type(2){
+    margin-left: 3px;
+    float: right;
+    margin-right: 5px;
+    font-size: 1em;
+}
+.fa-phone{
+    color: yellow;
+    margin-left: 5px;
+    font-size: 1.4em;
+}
+.fa-magnifying-glass{
+    color: white;
+    font-size: large;
+    margin-left: 10px;
+}
+.section{
+    width: 100%;
+    height: 100%;
+}
+.yellow{
+    font-size: smaller;
+    width: 120px;
+    height: 20px;
+    background-color: rgb(211, 185, 70);
+    padding-top:10px;
+    padding-bottom: 8px;
+}
+.yellow span{
+    font-size: 1.05em;
+}
+.brown{
+    background-color: rgb(58, 27, 27);
+    opacity: 0.7;
+    height:40px;
+    width: 40px;
+    margin-left: 10px ;
+}
+span:hover{
+    color: rgb(155, 130, 98);
+    cursor: pointer;
+}
+h3:hover{
+    cursor: pointer;
+}
